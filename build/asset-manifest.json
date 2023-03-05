@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.58c48017.css",
+    "main.js": "/static/js/main.a8f24af7.js",
+    "static/js/227.4ef21a5a.chunk.js": "/static/js/227.4ef21a5a.chunk.js",
+    "static/js/526.702f41cc.chunk.js": "/static/js/526.702f41cc.chunk.js",
+    "static/js/232.28cdf31a.chunk.js": "/static/js/232.28cdf31a.chunk.js",
+    "static/js/237.2718bcd8.chunk.js": "/static/js/237.2718bcd8.chunk.js",
+    "static/media/NITRIMUN-Home.png": "/static/media/NITRIMUN-Home.c15f85eba145496b7058.png",
+    "static/media/MARKALL.png": "/static/media/MARKALL.7d5531e8f5491bd76711.png",
+    "static/media/NITR-Blog.png": "/static/media/NITR-Blog.87d91d054fb70ad91736.png",
+    "static/media/Video-Generator.png": "/static/media/Video-Generator.187d7dd5a8aa7628c041.png",
+    "static/media/1one1Video.png": "/static/media/1one1Video.dcedfb823a3e49be255d.png",
+    "static/media/me.png": "/static/media/me.c367cd085a7ff683e650.png",
+    "static/media/me-about.jpg": "/static/media/me-about.09807026598483515e44.jpg",
+    "static/media/Bounse.jpg": "/static/media/Bounse.63876550a5340ee40dd9.jpg",
+    "static/media/avartar2.jpg": "/static/media/avartar2.12571ee2e6a8fda826df.jpg",
+    "static/media/avartar3.jpg": "/static/media/avartar3.87e51d216124b03cdfe0.jpg",
+    "static/media/avartar1.jpg": "/static/media/avartar1.d424374021f4e4c70076.jpg",
+    "static/media/avartar4.jpg": "/static/media/avartar4.8cefcac5ea64afa519ba.jpg",
+    "static/media/cv.pdf": "/static/media/cv.74e304e3f07950b3bad7.pdf",
+    "index.html": "/index.html",
+    "main.58c48017.css.map": "/static/css/main.58c48017.css.map",
+    "main.a8f24af7.js.map": "/static/js/main.a8f24af7.js.map",
+    "227.4ef21a5a.chunk.js.map": "/static/js/227.4ef21a5a.chunk.js.map",
+    "526.702f41cc.chunk.js.map": "/static/js/526.702f41cc.chunk.js.map",
+    "232.28cdf31a.chunk.js.map": "/static/js/232.28cdf31a.chunk.js.map",
+    "237.2718bcd8.chunk.js.map": "/static/js/237.2718bcd8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58c48017.css",
+    "static/js/main.a8f24af7.js"
+  ]
+}
