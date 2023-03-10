@@ -8,10 +8,7 @@
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
-  background: linear-gradient(45deg,
-      transparent,
-      var(--color-primary),
-      transparent);
+  background: transparent;
   display: grid;
   place-items: center;
 }
@@ -19,13 +16,8 @@
 .about__me-image {
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(10deg);
-  transition: var(--transition);
 }
 
-.about__me-image:hover {
-  transform: rotate(0);
-}
 
 .about__cards {
   display: grid;
@@ -47,7 +39,8 @@
   border-color: var(--color-primary);
   cursor: default;
   transform: scale(1.1);
-  box-shadow: 0px 0px 15px var(--color-primary);
+  box-shadow: inset 0px 0px 15px var(--color-primary), 0px 0px 15px var(--color-primary);
+
 }
 
 .about__icon {

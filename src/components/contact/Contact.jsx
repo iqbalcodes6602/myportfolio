@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri'
+import {RiLinkedinLine, RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
@@ -12,7 +12,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ev7rpm1', 'template_8ftod8d', form.current, 'Ncak2SepAqXcjB506')
+    emailjs.sendForm('service_do9zgds', 'template_neab7ls', form.current, 'dF4J0brR81hi-kHRG')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -27,28 +27,28 @@ const Contact = () => {
       <h2>Contact Me</h2>
 
       <div className='container contact__container'>
-        <div className='contact__options'>
+        <div data-aos="fade-right" className='contact__options'>
           <article className='contact__option'>
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>mohd.abd.6602@gmail.com</h5>
-            <a href="mailto:mohd.abd.6602@gmail.com">Send a message</a>
+            <a href="mailto:mohd.abd.6602@gmail.com">Email Me</a>
           </article>
           <article className='contact__option'>
-            <RiMessengerLine className='contact__option-icon'/>
+            <RiLinkedinLine className='contact__option-icon'/>
             <h4>LinkedIn</h4>
             <h5>anas-iqbal-07053b261</h5>
-            <a href="https://www.linkedin.com/in/anas-iqbal-07053b261/" target="_blank" rel='noreferrer'>Get In Touch</a>
+            <a href="https://www.linkedin.com/in/anas-iqbal-07053b261/" target="_blank" rel='noreferrer'>Let's Conenct</a>
           </article>
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
-            <h5>+91 81155 40055</h5>
+            <h5>+91 00000 00000</h5>
             <a href="https://api.whatsapp.com/send?phone+918115540055" target="_blank" rel='noreferrer'>Send a message</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
-        <form ref={form} onSubmit={sendEmail}>
+        <form data-aos="fade-left" ref={form} onSubmit={sendEmail}>
           <input type='text' name='name' placeholder='Your Full Name' required />
           <input type='email' name='email' placeholder='Your Email' required />
           <textarea name='message' rows="7" placeholder='Your Message' required />

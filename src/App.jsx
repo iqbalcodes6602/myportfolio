@@ -7,8 +7,14 @@ import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
 
 const App = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, [])
   return (
     <>
       <Header />

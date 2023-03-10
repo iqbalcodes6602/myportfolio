@@ -1,9 +1,9 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import ME from '../../assets/me-about.png'
+import { FaAward } from 'react-icons/fa'
+import { FaUniversity } from 'react-icons/fa'
+import { VscFolderLibrary } from 'react-icons/vsc'
 import CTA from '../header/CTA'
 
 
@@ -15,36 +15,34 @@ const About = () => {
 
       <div className="container about__container">
         <div className="about__me">
-          <div className="about__me-image">
+          <div data-aos="fade-right" className="about__me-image">
             <img src={ME} alt="About" />
           </div>
         </div>
-        <div className="about__content">
+        <div data-aos="fade-left" className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className="about__icon"/>
+              <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>3 Work Experiences</small>
             </article>
 
             <article className="about__card">
-              <FiUsers className="about__icon"/>
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <FaUniversity className="about__icon" />
+              <h5>College</h5>
+              <small>NIT&nbsp;Rourkela Industrial&nbsp;Design</small>
             </article>
 
             <article className="about__card">
-              <VscFolderLibrary className="about__icon"/>
+              <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>15+ Completed</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Hey there, web wanderer! I'm Anas Iqbal, a software sorcerer and web wizard who can whip up some MERN and WAMP magic. When I'm not crafting code, I love dabbling in the mystical arts of UI/UX design. Come take a peek at my portfolio and let's conjure up something awesome together!
           </p>
-          {/* <a href="#contact" className='btn btn-primary'>Let's Talk</a> */}
           <CTA />
         </div>
       </div>
