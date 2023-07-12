@@ -14,8 +14,8 @@ const data = [
     id: 1,
     image: Bounse,
     title: 'BOUNSE - WebApp for my college where students can sell their old porducts.',
-    github: "https://github.com/noobcoder6602/bounse",
-    demo: "https://github.com/noobcoder6602/bounse"
+    github: "https://github.com/iqbalcodes6602/bounse",
+    demo: "https://github.com/iqbalcodes6602/bounse"
   },
   {
     id: 2,
@@ -28,29 +28,29 @@ const data = [
     id: 3,
     image: NITRBLOG,
     title: 'Blogging website for college students where they can share their journey and much more.',
-    github: "https://github.com/noobcoder6602/nitrblog",
+    github: "https://github.com/iqbalcodes6602/nitrblog",
     demo: "https://nitrblog.000webhostapp.com/"
   },
   {
     id: 4,
     image: MARKALL,
     title: 'NEXTJS Landing Page for SchoolHype Co. with emailing features.',
-    github: "https://github.com/noobcoder6602/schoolHype",
+    github: "https://github.com/iqbalcodes6602/schoolHype",
     demo: "https://wonderful-meerkat-f3d442.netlify.app/"
   },
   {
     id: 5,
     image: VIDEOGENERATOR,
     title: 'Generates video with given text by user and language input customisation helps in overlaying text on video.',
-    github: "https://github.com/noobcoder6602/phpVideoGenerator",
-    demo: "https://github.com/noobcoder6602/phpVideoGenerator"
+    github: "https://github.com/iqbalcodes6602/phpVideoGenerator",
+    demo: "https://github.com/iqbalcodes6602/phpVideoGenerator"
   },
   {
     id: 6,
     image: VIDEOCALL,
     title: 'Real time video calling webapp with WebRTC and REACTJS',
-    github: "https://github.com/noobcoder6602/1v1videoCalling",
-    demo: "https://github.com/noobcoder6602/1v1videoCalling"
+    github: "https://github.com/iqbalcodes6602/1v1videoCalling",
+    demo: "https://github.com/iqbalcodes6602/1v1videoCalling"
   },
 ]
 
