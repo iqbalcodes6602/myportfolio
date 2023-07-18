@@ -13,7 +13,7 @@ const data = [
   {
     id: 1,
     image: Bounse,
-    title: 'BOUNSE - WebApp for my college where students can sell their old porducts.',
+    title: 'BounSe - WebApp for my college where students can sell their old porducts.',
     github: "https://github.com/iqbalcodes6602/bounse",
     demo: "https://github.com/iqbalcodes6602/bounse"
   },
