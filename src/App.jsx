@@ -9,12 +9,22 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 const App = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, [])
+
+const [loading, setLoading] = useState(true)
+const spinner = document.getElementById('spinner')
+if(spinner){
+  setTimeout(()=> {
+    spinner.style.display = "none"
+    setLoading(false)
+  }, 5000)
+}
+
   return (
     <>
       <Header />
